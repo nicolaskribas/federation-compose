@@ -1,0 +1,12 @@
+redundancy = 2
+core_ann_interval = 60 # 60 seconds
+beacon_interval = 60 # 60 seconds
+cache_size = 10000
+
+[host]
+id = 1
+uri = "tcp://localhost:1883"
+
+[[neighbors]]
+id = 2
+uri = "tcp://node2"

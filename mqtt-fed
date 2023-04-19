@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo "substitute this file (mqtt-fed) with the federator binary"
